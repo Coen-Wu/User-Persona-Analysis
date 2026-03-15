@@ -21,7 +21,7 @@ This visualization is the core result of PCA-driven dimensionality reduction, ma
 ![User Segmentation Map](./user_segmentation_map.png)
 
 **PCA Axis Interpretation:**
-* **PC1 (X-Axis) - Mainstream Accessibility**: Distinguishes between mainstream movies and specific sub-cultures.
+* **PC1 (X-Axis) - Mainstream Accessibility**: Distinguishes between mainstream movies and specific subcultures.
 * **PC2 (Y-Axis) - Cinematic Style Spectrum**: Captures the variation from family-friendly animation to darker cult classics.
 
 
