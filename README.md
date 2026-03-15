@@ -2,7 +2,7 @@
 
 This project analyzes user movie-watching preferences using collaborative filtering and unsupervised learning techniques.
 
-# Key Implementation
+## Key Implementation
 
 The project deconstructs the MovieLens Latest Small Dataset to identify latent user personas through three primary stages:
 
@@ -12,19 +12,24 @@ User Clustering: Segmenting users into 4 distinct groups using K-Means.
 
 Visualization (PCA): Using Principal Component Analysis (PCA) to map complex, 6-dimensional user tastes into a 2D "User Segmentation Map" for intuitive analysis. 
 
-# Results & Insights
+## Results & Insights
 
-1. User Segmentation Map
+### 1. User Segmentation Map
 
-This plot is the core result of dimensionality reduction with PCA, mapping complex 6D user tastes onto a 2D "Market Map." It reveals how different personas are distributed based on their "Market Popularity Dimension" (PC1) and "Movie Style Spectrum" (PC2) scores. 
+This visualization is the core result of PCA-driven dimensionality reduction, mapping high-dimensional taste profiles onto a 2-axis coordinate system.
 
 ![User Segmentation Map](./user_segmentation_map.png)
 
-2. Full Analysis & Deep Dive
+**PCA Axis Interpretation:**
+* **PC1 (X-Axis) - Mainstream Accessibility**: Distinguishes between mainstream movies and specific sub-cultures.
+* **PC2 (Y-Axis) - Cinematic Style Spectrum**: Captures the variation from family-friendly animation to darker cult classics.
 
-For a detailed look at the 6 Hidden Content Genes and comprehensive persona summaries, please refer to my [Project Slides (PDF)](./project_slides.pdf).
 
-# Techniques Used
+### 2. Full Analysis & Deep Dive
+
+For a detailed look at the 6 Hidden Content Genes and comprehensive persona summaries, please refer to my **[Project Slides (PDF)](./project_slides.pdf)**.
+
+## Techniques Used
 
 Matrix Factorization (NMF)
 
@@ -34,11 +39,11 @@ Principal Component Analysis (PCA)
 
 Data visualization with Matplotlib & Seaborn
 
-# Libraries
+## Libraries
 
 pandas, numpy, scikit-learn, matplotlib, seaborn
 
-# Project Structure
+## Project Structure
 
 ```text
 ├── data/                  # Source data: movies.csv, ratings.csv 
